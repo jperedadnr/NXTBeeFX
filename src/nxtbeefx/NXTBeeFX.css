@@ -1,0 +1,77 @@
+/* 
+    Document   : NXTBeeFX
+    Created on : 29-dic-2012, 19:32:32
+    Author     : Pereda
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.paneOut {
+    -fx-background-color: #e2d2c2; 
+    -fx-background-radius: 20 20 20 20; 
+    -fx-border-radius: 20 20 20 20; 
+    -fx-border-color: #464646; 
+    -fx-border-width: 0.2em;
+}
+
+.paneIn {
+    -fx-background-color: #e2d272; 
+    -fx-background-radius: 10 10 10 10; 
+    -fx-border-radius: 10 10 10 10; 
+    -fx-border-color: #666666; 
+    -fx-border-width: 0.2em;
+}
+
+#key-button {
+	-fx-font-size: 19pt;
+	-fx-font-family: "Tahoma";
+	-fx-text-fill: white;
+	-fx-padding: 0;        
+	-fx-color: rgb(60, 66, 80);
+}
+
+#key-button.button:hover {
+	-fx-color: rgb(100, 106, 120);
+}
+
+#key-button.button:pressed {
+	-fx-color: rgb(200, 206, 220);
+	-fx-scale-x: 0.95;
+	-fx-scale-y: 0.95;
+}
+
+#key-button.button .label {
+	-fx-background-color: linear-gradient(to bottom, #fff500, derive(#fff500,80%));
+        -fx-border-color: derive(#fff500,-40%);
+        -fx-border-width: 2px;
+	-fx-scale-shape: false;
+        -fx-translate-x: -6;
+        -fx-translate-y: -4; 
+}
+
+#key-button.button .arrowUp {
+    -fx-shape: "M 14.519136,38.500000 L 32.524165,38.496094 L 32.524165,25.504468 L 40.519531,25.496656 L 23.374809,5.4992135 L 6.5285585,25.497284 L 14.524440,25.501074 L 14.519136,38.500000 z";
+}
+
+#key-button.button .arrowDown {
+    -fx-shape: "m 32.509424,5.49921 -18.005029,0.0039 0,12.991626 -7.995366,0.0078 17.144722,19.99746 16.84625,-19.99807 -7.995881,-0.0038 0.0053,-12.668936 z";
+}
+
+#key-button.button .arrowLeft {
+    -fx-shape: "M 43.569288,41.909369 C 55.220096,41.605509 45.144252,7.29355 25.699258,12.49765 l 0,-9.3754104 -16.6484815,14.5865794 16.6484815,15.29753 0,-9.66838 c 15.93811,-5.71097 9.177528,18.43258 17.87003,18.5714 z";
+}
+
+#key-button.button .arrowRight {
+    -fx-shape: "M 14.007057,41.909369 C 2.3562491,41.605509 12.432093,7.29355 31.877087,12.49765 l 0,-9.3754104 16.648482,14.5865794 -16.648482,15.29753 0,-9.66838 c -15.93811,-5.71097 -9.177528,18.43258 -17.87003,18.5714 z";
+}
+
+#key-button.button .arrowVelUp {
+    -fx-shape: "m 23.449842,15.220589 0,13.780219 m -6.863605,-6.851301 13.7276,0 m -15.822045,9.229174 8.988842,0 8.988843,0 0,-5.831244 8.030523,0 L 23.374809,5.4992135 6.5285585,25.489471 l 7.9685375,0.06629 z";
+}
+#key-button.button .arrowVelDown {
+    -fx-shape: "m 16.586237,14.728387 13.7276,0 m -15.822045,-9.2291735 8.988842,0 8.988843,0 0,5.8312435 8.030523,0 L 23.374809,31.378681 6.5285585,11.388423 14.497096,11.322133 z";
+}
