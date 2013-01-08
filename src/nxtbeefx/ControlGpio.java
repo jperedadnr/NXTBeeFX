@@ -27,7 +27,6 @@ public class ControlGpio
     
     public ControlGpio()
     {
-        System.out.println("<--Pi4J--> GPIO Control Example ... started.");
         // turn off gpio pin #01
         pinRed.low();
         pinGreen.low();
