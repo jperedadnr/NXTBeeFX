@@ -3,7 +3,7 @@ NXTBeeFX
 
 JavaFX based application for Raspberry Pi, to control remotely a Lego Mindstorm NXT via XBee
 
-Read full description here: http://jperedadnr.blogspot.com.es/
+Read full description here: http://jperedadnr.blogspot.com.es/2013/01/nxtbeefx-javafx-based-app-for-raspberry.html
 
 REQUIREMENTS
 
