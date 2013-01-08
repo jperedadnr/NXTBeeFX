@@ -137,7 +137,7 @@ public class NXTBeeFXController implements Initializable {
         } catch( Exception e ) {
             System.out.println("Error connecting to serial port: "+e.getMessage());
         }
-        
+
         /*
          * Service to start reading serial port for NXT Status
          * It will stop and close when requested
@@ -146,7 +146,7 @@ public class NXTBeeFXController implements Initializable {
 
             @Override
             protected Task<Void> createTask() {
-                
+
                 return new Task<Void>(){
 
                     @Override
